@@ -42,8 +42,6 @@ Project settings used in the Cloudflare dashboard (Workers & Pages → this proj
 | Root directory | `/` |
 | Node version | `20` (pinned via `.nvmrc`) |
 
-No environment variables or secrets are required — this is a fully static site.
-
 ## Other Commands
 
 ```bash
