@@ -4,8 +4,6 @@ A personal landing page / portfolio for **Denys Pobochnyi**, Senior Automation Q
 
 🔗 **Live site: [cv.denis-pob.workers.dev](https://cv.denis-pob.workers.dev/)**
 
-`Hero` · `Highlights` · `Skills` · `Experience` · `Education & Certifications`
-
 ## Tech Stack
 
 | Layer      | Choice                          |
