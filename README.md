@@ -57,6 +57,22 @@ Notes:
 - `vite.config.ts` sets `server.allowedHosts: true` so Vite accepts requests coming through the ngrok domain — without it, Vite's dev-server host check returns a 403 for any non-localhost `Host` header.
 - For a permanent public link, deploy the production build (see below) to a static host like Vercel, Netlify, or Cloudflare Pages instead of tunneling.
 
+## Deployment (Cloudflare Pages)
+
+This repo is connected to [Cloudflare Pages](https://pages.cloudflare.com) for continuous deployment: every push to `main` automatically builds and deploys.
+
+Project settings used in the Cloudflare dashboard (Workers & Pages → this project → Settings → Builds):
+
+| Setting | Value |
+| --- | --- |
+| Framework preset | Vite |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Root directory | `/` |
+| Node version | `20` (pinned via `.nvmrc`) |
+
+No environment variables or secrets are required — this is a fully static site.
+
 ## Other Commands
 
 ```bash
@@ -70,7 +86,7 @@ npm run preview
 ## Project Structure
 
 ```
-claude-foo/
+cv/
 ├── index.html                # HTML entry point / page <title>, fonts
 ├── src/
 │   ├── main.tsx               # React root
@@ -91,4 +107,4 @@ To edit any content on the page, edit `src/data/cv.ts` — no component code nee
 
 ## Notes
 
-- This is currently local-only; no deployment/hosting is configured yet.
+- No sensitive data is committed — see `.gitignore` for excluded files (`node_modules`, `dist`, etc.).

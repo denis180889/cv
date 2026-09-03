@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "dev:public": "concurrently -n vite,ngrok -c blue,green \"vite\" \"ngrok http 5173 --log stdout\"",
