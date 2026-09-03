@@ -2,6 +2,8 @@
 
 A personal landing page / portfolio for **Denys Pobochnyi**, Senior Automation QA Engineer — built from his CV, styled as a modern dark tech portfolio.
 
+🔗 **Live site: [cv.denis-pob.workers.dev](https://cv.denis-pob.workers.dev/)**
+
 `Hero` · `Highlights` · `Skills` · `Experience` · `Education & Certifications`
 
 ## Tech Stack
@@ -29,33 +31,6 @@ npm run dev
 ```
 
 Then open **http://localhost:5173** in your browser.
-
-## Sharing It Publicly (temporary tunnel)
-
-To get a public, internet-reachable URL for your local dev server (e.g. to show someone on your phone or remotely) without deploying anywhere:
-
-```bash
-npm run dev:public
-```
-
-This runs Vite **and** an [ngrok](https://ngrok.com) tunnel together. Requirements:
-
-- [ngrok](https://ngrok.com/download) installed and on your `PATH` (`brew install --cask ngrok`)
-- A free ngrok account with an authtoken configured once via `ngrok config add-authtoken <token>`
-
-**Where to find the public URL:** look for the `[ngrok]`-prefixed line in the terminal output that looks like:
-
-```
-[ngrok] ... msg="started tunnel" ... url=https://<random>.ngrok-free.app
-```
-
-That's your shareable link. If it scrolls out of view, the same URL (plus a live traffic inspector) is always available at **http://localhost:4040** while the tunnel is running, or via `curl -s http://localhost:4040/api/tunnels`.
-
-Notes:
-- The URL is **temporary** — it only works while this command keeps running, and changes every time you restart it (free tier).
-- First-time visitors will see an ngrok interstitial page (click "Visit Site") before reaching the app.
-- `vite.config.ts` sets `server.allowedHosts: true` so Vite accepts requests coming through the ngrok domain — without it, Vite's dev-server host check returns a 403 for any non-localhost `Host` header.
-- For a permanent public link, deploy the production build (see below) to a static host like Vercel, Netlify, or Cloudflare Pages instead of tunneling.
 
 ## Deployment (Cloudflare Pages)
 
