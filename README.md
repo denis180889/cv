@@ -14,8 +14,6 @@ A personal landing page / portfolio for **Denys Pobochnyi**, Senior Automation Q
 | Build tool | [Vite](https://vitejs.dev)       |
 | Styling    | [Tailwind CSS](https://tailwindcss.com) |
 
-No backend, no database — a fully static single-page site.
-
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) 18+ (includes `npm`)
@@ -80,6 +78,3 @@ cv/
 
 To edit any content on the page, edit `src/data/cv.ts` — no component code needs to change.
 
-## Notes
-
-- No sensitive data is committed — see `.gitignore` for excluded files (`node_modules`, `dist`, etc.).
