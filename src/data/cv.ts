@@ -51,6 +51,10 @@ export const skills: SkillGroup[] = [
     category: "Containerization",
     items: ["Docker"],
   },
+  {
+    category: "AI Tools",
+    items: ["Cursor", "Claude", "GitHub Copilot"],
+  },
 ];
 
 export type ExperienceEntry = {
