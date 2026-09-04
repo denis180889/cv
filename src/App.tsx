@@ -1,3 +1,4 @@
+import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Skills from "./components/Skills";
@@ -6,12 +7,15 @@ import Education from "./components/Education";
 
 export default function App() {
   return (
-    <main>
-      <Hero />
-      <Highlights />
-      <Skills />
-      <Experience />
-      <Education />
-    </main>
+    <>
+      <Nav />
+      <main>
+        <Hero />
+        <Highlights />
+        <Skills />
+        <Experience />
+        <Education />
+      </main>
+    </>
   );
 }
