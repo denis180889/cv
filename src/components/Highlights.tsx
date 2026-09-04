@@ -3,7 +3,7 @@ import { highlights } from "../data/cv";
 export default function Highlights() {
   return (
     <section className="section-container py-20">
-      <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
         {highlights.stats.map((stat) => (
           <div
             key={stat.label}
@@ -16,13 +16,6 @@ export default function Highlights() {
               {stat.label}
             </div>
           </div>
-        ))}
-      </div>
-      <div className="mt-10 space-y-4 border-l-2 border-accent/40 pl-6">
-        {highlights.taglines.map((line) => (
-          <p key={line} className="text-lg italic text-slate-300 sm:text-xl">
-            "{line}"
-          </p>
         ))}
       </div>
     </section>

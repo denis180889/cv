@@ -11,13 +11,8 @@ export const profile = {
 export const highlights = {
   stats: [
     { value: "10+", label: "Years Automating" },
-    { value: "500+", label: "E2E Tests Shipped" },
     { value: "9", label: "Companies" },
     { value: "3", label: "Languages Spoken (Human)" },
-  ],
-  taglines: [
-    "Built test automation frameworks from scratch often enough to know exactly what breaks — then made sure it doesn't.",
-    "Turns \"it works on my machine\" into a green pipeline, every time.",
   ],
 };
 
