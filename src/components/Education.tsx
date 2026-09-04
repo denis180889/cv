@@ -35,9 +35,6 @@ export default function Education() {
           </ul>
         </div>
       </div>
-      <footer className="mt-20 border-t border-slate-800 pt-6 text-center font-mono text-xs text-slate-600">
-        Built with React, TypeScript & Tailwind CSS.
-      </footer>
     </section>
   );
 }
