@@ -4,6 +4,8 @@ A personal landing page / portfolio for **Denys Pobochnyi**, Senior Automation Q
 
 🔗 **Live site: [cv.denis-pob.workers.dev](https://cv.denis-pob.workers.dev/)**
 
+> This repo was created for playing around with [Claude Code](https://claude.com/claude-code) — most of it (code, content, deployment setup) was built through an AI-assisted, conversational workflow.
+
 ## Tech Stack
 
 | Layer      | Choice                          |
