@@ -10,7 +10,8 @@ export const profile = {
 
 export const highlights = {
   stats: [
-    { value: "10+", label: "Years Automating" },
+    { value: "15+", label: "Years Automating" },
+    { value: "20+", label: "Projects Automated" },
     { value: "9", label: "Companies" },
     { value: "3", label: "Languages Spoken (Human)" },
   ],

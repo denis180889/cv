@@ -3,7 +3,7 @@ import { highlights } from "../data/cv";
 export default function Highlights() {
   return (
     <section className="section-container py-20">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+      <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
         {highlights.stats.map((stat) => (
           <div
             key={stat.label}
