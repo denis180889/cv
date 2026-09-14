@@ -103,6 +103,7 @@ export const experience: ExperienceEntry[] = [
   },
   {
     company: "Resident Home",
+    companyUrl: "https://www.linkedin.com/company/ashleydigital",
     role: "Senior Automation QA Engineer",
     dates: "November 2021 – June 2022",
     bullets: [
