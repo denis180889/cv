@@ -69,11 +69,11 @@ export const experience: ExperienceEntry[] = [
     dates: "April 2025 – August 2026",
     bullets: [
       "Built a Playwright automation framework from scratch with 500+ E2E UI tests.",
+      "Automated testing of integrations with dialer and contact-center platforms (Salesforce, RingCentral, Genesys Cloud, LivePerson, NICE CXone, AnywhereNow).",
       "Integrated Twilio to automate real phone-call scenarios.",
       "Implemented k6 + Grafana performance testing and monitoring.",
       "Developed AI agents, skills, and prompts for automated test generation and bug-report creation from failed tests.",
       "Maintained automated testing and CI pipelines in Google Cloud.",
-      "Automated testing of integrations with dialer and contact-center platforms (Salesforce, RingCentral, Genesys Cloud, LivePerson, NICE CXone, AnywhereNow).",
     ],
   },
   {
